@@ -28,7 +28,6 @@
 
     setInterval(cycleDemos, 3000);
 
-    // Scroll reveal
     const reveals = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry, i) => {
